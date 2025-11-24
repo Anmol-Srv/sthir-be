@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:18
+    container_name: STHIR-DB
+    environment:
+      POSTGRES_USER: anmol
+      POSTGRES_PASSWORD: wakeuptoreality
+      POSTGRES_DB: sthir
+    ports:
+      - "5434:5432"

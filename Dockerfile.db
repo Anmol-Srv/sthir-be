@@ -1,0 +1,7 @@
+FROM postgres:18
+
+ENV POSTGRES_USER=anmol
+ENV POSTGRES_PASSWORD=wakeuptoreality
+ENV POSTGRES_DB=sthir
+
+EXPOSE 5434
